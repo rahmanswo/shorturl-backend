@@ -81,3 +81,13 @@ or run via docker compose, rename docker-compose.yml.example to docker-compose.y
 ```bash
 docker compose up -d
 ```
+
+# Test
+
+```bash
+npm install -g k6
+```
+
+```bash
+k6 run shorturl.test.js
+```
