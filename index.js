@@ -34,7 +34,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.route("/").get((req, res) => {
-  res.send("info man@tkjpedia.com");
+  res.send("info fatkhurrahman.fatkhurrahman@softwareone.com");
 });
 
 //api
